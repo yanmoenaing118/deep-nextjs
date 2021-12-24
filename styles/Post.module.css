@@ -1,0 +1,12 @@
+.post {
+  padding: 1em;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.post h1 {
+  text-transform: capitalize;
+}
+
+.post p {
+  margin: 1em 0;
+}
