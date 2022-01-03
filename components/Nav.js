@@ -27,17 +27,36 @@ export default function Nav() {
     <NavEl>
       <UlEl>
         <LiEl>
-          <ActiveLink href="/">Home</ActiveLink>
+          <Link href="/">
+            <a>Home</a>
+          </Link>
         </LiEl>
         <LiEl>
-          <ActiveLink href="/about">About</ActiveLink>
+          <Link href="/about">
+            <a>About</a>
+          </Link>
         </LiEl>
-        <LiEl>
-          <ActiveLink href="/posts">Posts</ActiveLink>
+        {/* <LiEl>
+          <Link href="/posts">
+            <a>Posts</a>
+          </Link>
         </LiEl>
 
         <LiEl>
-          <ActiveLink href="/users">Authors</ActiveLink>
+          <Link href="/users">
+            <a>Authors</a>
+          </Link>
+        </LiEl>
+
+        <LiEl>
+          <Link href="/recoi">
+            <a>Learn Recoil</a>
+          </Link>
+        </LiEl> */}
+        <LiEl>
+          <Link href="/new">
+            <a>New Arrivals</a>
+          </Link>
         </LiEl>
       </UlEl>
     </NavEl>

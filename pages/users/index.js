@@ -6,7 +6,7 @@ export default function UsersPage({ users }) {
     <Layout title="Users">
       {users.map((user) => {
         return (
-          <div className="user">
+          <div key={user.id} className="user">
             <Link href={`/users/${user.id}`}>
               <a>
                 <h3>{user.name}</h3>
