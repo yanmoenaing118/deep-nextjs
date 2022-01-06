@@ -10,10 +10,6 @@ export default function Product({ query, product }) {
   const { data } = useSWR(`http://localhost:3000/similars`, fetcher);
 
   useEffect(() => {
-    console.log("Similars => ", data);
-  }, [data]);
-
-  useEffect(() => {
     console.log("Query", query);
   }, [query]);
 
@@ -24,7 +20,7 @@ export default function Product({ query, product }) {
       <ul>
         {data.map((p) => {
           return (
-            <li>
+            <li key={p.id}>
               <Link href={`/products/${p.id}`}>
                 <a>{p.Name}</a>
               </Link>

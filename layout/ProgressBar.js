@@ -5,7 +5,6 @@ export default function ProgressBar() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   useEffect(() => {
-    console.log("route change");
     router.events.on("routeChangeStart", () => setLoading(true));
     router.events.on("routeChangeComplete", () => setLoading(false));
     router.events.on("routeChangeError", () => setLoading(false));

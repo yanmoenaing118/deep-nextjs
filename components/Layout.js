@@ -1,29 +1,31 @@
 import Head from "next/head";
-import styled from "styled-components";
 import Nav from "./Nav";
 import ProgressBar from "../layout/ProgressBar";
-
-const LayoutEl = styled.div`
-  max-width: 800px;
-  margin: auto;
-  margin-top: 16px;
-`;
-
-const ContainerEl = styled.div``;
 
 export default function Layout({ title, children }) {
   return (
     <>
       <ProgressBar />
-      <LayoutEl>
+      <div className="layout">
         <Head>
           <title>{title}</title>
         </Head>
-        <ContainerEl>
+        <div className="container">
           <Nav />
           <div>{children}</div>
-        </ContainerEl>
-      </LayoutEl>
+        </div>
+
+        <style jsx>{`
+          .layout {
+            max-width: 800px;
+            margin: auto;
+            margin-top: 16px;
+          }
+
+          .container {
+          }
+        `}</style>
+      </div>
     </>
   );
 }
