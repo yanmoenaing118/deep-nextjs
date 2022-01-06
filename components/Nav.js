@@ -17,7 +17,7 @@ export default function Nav() {
             <a>About</a>
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link href="/posts">
             <a>Posts</a>
           </Link>
@@ -33,7 +33,7 @@ export default function Nav() {
           <Link href="/recoi">
             <a>Learn Recoil</a>
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link href="/new">
             <a>New Arrivals</a>
