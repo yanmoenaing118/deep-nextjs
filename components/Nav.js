@@ -34,11 +34,7 @@ export default function Nav() {
             <a>Learn Recoil</a>
           </Link>
         </li>
-        <li>
-          <Link href="/new">
-            <a>New Arrivals</a>
-          </Link>
-        </li>
+        
         <li>
           <Link href="/albums">
             <a>Albums</a>
