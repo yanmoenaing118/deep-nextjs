@@ -10,7 +10,7 @@ export default function Home({ home }) {
 }
 
 export async function getServerSideProps({ query }) {
-  console.log(query);
+ 
 
   const res = await fetch(process.env.APP_URL + "/api/home");
 
