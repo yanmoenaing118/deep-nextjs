@@ -11,6 +11,7 @@ export default function AlbumsPage({ data }) {
 
 export async function getServerSideProps({query}) {
   console.log(query);
+  console.log("main is albums")
 
   return {
     props: {
