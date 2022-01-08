@@ -13,7 +13,10 @@ export default function Nav() {
           <Link href="/about">About </Link>
         </li>
         <li>
-          <Link href="/products">Products </Link>
+          <Link href="/products">New Products </Link>
+        </li>
+        <li>
+          <Link href="/services">Services </Link>
         </li>
       </ul>
       <style jsx>{`
