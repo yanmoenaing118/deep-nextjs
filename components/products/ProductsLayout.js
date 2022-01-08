@@ -12,8 +12,8 @@ export default function ProductsLayout({aside, content}) {
           padding: 1em;
         }
 
-        .content {
-          padding: 1em;
+        .services {
+          
         }
       `}</style>
     </div>
