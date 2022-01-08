@@ -13,12 +13,15 @@ export default function AlbumsPage({ data }) {
 
 export async function getServerSideProps({query}) {
   
+
+  const res = await fetch(process.env.API_URL + "products");
+  const data = await res.json();
   
 
   return {
     props: {
       data: {
-        albums: [],
+        albums: data,
         total: 0
       }
     }
