@@ -1,5 +1,9 @@
+import ProductsLayout from "../components/products/ProductsLayout"
+
 export default function Services({ b }) {
-    return <h1>Services</h1>
+    return <ProductsLayout>
+        <h1>Services</h1>
+    </ProductsLayout>
 }
 
 export async function getServerSideProps() {
