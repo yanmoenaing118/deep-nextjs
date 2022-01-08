@@ -1,7 +1,11 @@
+import HomeLayout from "../layout/HomeLayout";
+
 export default function Home() {
   return (
  
-      <h1>Welcome to Next JS.</h1>
+      <HomeLayout>
+        <h1>Welcome to Next JS.</h1>
+      </HomeLayout>
  
   );
 }
