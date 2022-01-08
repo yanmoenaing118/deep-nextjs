@@ -9,7 +9,7 @@ export default function Header() {
       </div>
       <style jsx>{`
         header {
-          height: 80px;
+          height: 66px;
           display: flex;
           align-items: center;
           box-shadow: 0 3px 3px rgba(0,0,0,0.125);
