@@ -74,7 +74,7 @@ export default function Home({ query, respositories }) {
 
 export async function getServerSideProps({ query }) {
   const queryString = _getQueryString(query);
-  const res = await fetch(`http://localhost:9000/api/repo${queryString}`);
+  const res = await fetch(`https://deep-nextjs.vercel.app/api/repo${queryString}`);
   const data = await res.json();
 
   console.log(data);
