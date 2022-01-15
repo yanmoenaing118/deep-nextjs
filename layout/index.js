@@ -3,13 +3,15 @@ import PageTransitionEffect from "../components/PageTransitionEffect";
 export default function Layout({ children }) {
   return (
     <>
-    <PageTransitionEffect />
+   
       <Head>
         <title>Next JS in depth</title>
       </Head>
       <header>
         <h1>Next JS In depth</h1>
       </header>
+
+      <PageTransitionEffect />
 
       <main>{children}</main>
 
