@@ -1,7 +1,7 @@
 const nextConfig = {
   env: {
-    API_URL: "https://fakestoreapi.com/",
-    APP_URL: "http://localhost:9000",
+    API_URL: "http://localhost:3000/",
+    APP_URL: "http://localhost:9000/api/",
   },
 };
 

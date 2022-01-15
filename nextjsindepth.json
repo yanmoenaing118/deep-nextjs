@@ -1,19 +1,90 @@
 {
-  "posts": [
+  "users": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username": "Yan Moe Naing"
     }
   ],
-  "comments": [
+  "todos": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "text": "1",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "text": "2",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "text": "3",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "text": "4",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "text": "5",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "text": "6",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "text": "7",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "text": "8",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "text": "9",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "text": "10",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "text": "11",
+      "completed": false,
+      "id": 11
+    },
+    {
+      "text": "12",
+      "completed": false,
+      "id": 12
+    },
+    {
+      "text": "13",
+      "completed": false,
+      "id": 13
+    },
+    {
+      "text": "14",
+      "completed": false,
+      "id": 14
+    },
+    {
+      "text": "15",
+      "completed": false,
+      "id": 15
+    },
+    {
+      "text": "16",
+      "completed": false,
+      "id": 16
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
