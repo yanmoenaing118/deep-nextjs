@@ -1,11 +1,11 @@
-import { useEffect, useState } from "react/cjs/react.development";
+import {  useState } from "react";
 import useSWRInfinte from "swr/infinite";
 
 const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export default function InfiniteLoadPage() {
   const [sort, setSort] = useState("created");
-  const { data, error, isValidating, mutate, size, setSize } = useSWRInfinte(
+  const { data, error, size, setSize } = useSWRInfinte(
     (index) =>
       `https://api.github.com/users/yanmoenaing118/repos?per_page=5&page=${index}&sort=${sort}`,
     fetcher
