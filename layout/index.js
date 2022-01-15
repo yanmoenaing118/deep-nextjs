@@ -1,7 +1,9 @@
 import Head from "next/head";
+import PageTransitionEffect from "../components/PageTransitionEffect";
 export default function Layout({ children }) {
   return (
     <>
+    <PageTransitionEffect />
       <Head>
         <title>Next JS in depth</title>
       </Head>
